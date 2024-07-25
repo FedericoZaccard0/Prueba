@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="description"
+        content="Esta es una página para cargar sus estudios médicos y calcular variables de salud.">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registro MirrorX</title>
+    <link rel="stylesheet" href="estilosregistro.css">
+    <link rel="stylesheet" href="header.css">
+</head>
+
+<body>
+    <header>
+        <h1>MirrorX</h1>
+        <nav>
+            <a href="./index.html" target="_blank">Inicio </a>
+            <a href="./acercade.html" target="_blank">Acerca de...</a>
+            <a href="./busqueda.html" target="_blank">Búsqueda</a>
+            <a href="./preguntasfrecuentes" target="_blank">Preguntas Frecuentes<a>
+        </nav>
+        <br>
+    </header>
+    <main>
+        <div class="contenedor">
+
+            <h1>Registro</h1>
+
+            <h2>Ingrese aquí sus datos: </h2>
+
+            <form action="" method="POST">
+                <label for="nombre">Nombre:</label>
+                <input id="nombre" name="nombre" type="text" placeholder="Nombre" required>
+
+                <br></br>
+
+                <label for="apellido">Apellido:</label>
+                <input id="apellido" name="apellido" type="text" placeholder="Apellido" required>
+
+                <br></br>
+
+                <label for="edad">Edad:</label>
+                <input id="edad" name="edad" type="number" placeholder="Edad" required>
+
+                <br></br>
+                <label for="sexo">Sexo:</label>
+                <div class="radiobutton">
+                    <label for="sexo1">
+                        <input id="sexo1" name="sexo" type="radio">
+                        Masculino
+                    </label>
+                    
+                    <label for="sexo2">
+                        <input id="sexo2" name="sexo" type="radio">
+                        Femenino
+                    </label>
+                </div>
+                
+                
+                <br><br>
+
+                <label for="tbq">¿Es Fumador?</label>
+                <select id="tbq" name="tbq">
+                    <option value="no">No</option>
+                    <option value="si">Sí</option>
+                </select>
+                <br><br>
+
+                <label for="hto">Hematocrito (%):</label>
+                <input id="hto" name="hto" type="number" placeholder="Hematocrito" required>
+
+
+                <br>
+
+                <label for="globulos blancos">Glóbulos Blancos:</label>
+                <input id="globulos blancos" name="globulos blancos" type="number" placeholder="Globulos Blancos"
+                    required>
+
+                <br>
+
+                <label for="Plaquetas">Plaquetas:</label>
+                <input id="plaquetas" name="plaquetas" type="number" placeholder="Plaquetas" required>
+
+                <br>
+
+                <label for="sodio">Sodio (mEq/L):</label>
+                <input id="sodio" name="sodio" type="number" placeholder="Sodio" required>
+
+                <br>
+
+                <label for="potasio">Potasio (mEq/L):</label>
+                <input id="potasio" name="potasio" type="number" placeholder="Potasio" required>
+
+                <br>
+
+                <label for="glucemia">Glucemia:</label>
+                <input id="glucemia" name="glucemia" type="number" placeholder="Glucemia" required>
+
+                <br>
+
+                <label for="hemoglobina glicosilada">Hb glicosilada (%):</label>
+                <input id="hemoglobina glicosilada" name="hemoglobina glicosilada" type="number"
+                    placeholder="Hb glicosilada" required>
+
+                <br>
+
+                <label for="colesterol total">Colesterol Total (mg/dL)::</label>
+                <input id="colesterol total" name="colesterol total" type="number" placeholder="Colesterol Total"
+                    required>
+
+                <br>
+
+                <label for="ldl">LDL (mg/dL):</label>
+                <input id="ldl" name="ldl" type="number" placeholder="LDL" required>
+
+                <br>
+
+                <label for="hdl">HDL (mg/dL)::</label>
+                <input id="hdl" name="hdl" type="number" placeholder="HDL" required>
+
+                <br>
+
+                <label for="trigliceridos">TG (mg/dL)::</label>
+                <input id="trigliceridos" name="trigliceridos" type="number" placeholder="Triglicéridos" required>
+
+                <br>
+
+                <label for="bilirubina directa">Bilirubina Directa (mg/dL):</label>
+                <input id="bilirubina directa" name="bilirubina directa" type="number" placeholder="Bilirubina Directa"
+                    required>
+
+                <br>
+
+                <label for="bilirubina indirecta">Bilirubina Indirecta (mg/dL):</label>
+                <input id="bilirubina indirecta" name="bilirubina indirecta" type="number"
+                    placeholder="Bilirubina Indirecta" required>
+
+                <br>
+
+                <label for="tgp">TGP (UI/L):</label>
+                <input id="tgp" name="tgp" type="number" placeholder="TGP" required>
+
+                <br>
+
+                <label for="tgo">TGO (UI/L):</label>
+                <input id="tgo" name="tgo" type="number" placeholder="TGO" required>
+
+                <br>
+
+                <label for="tp">TP (%):</label>
+                <input id="tp" name="tp" type="number" placeholder="Tiempo de Protrombina" required>
+
+                <br>
+
+                <label for="kptt">KPTT (seg):</label>
+                <input id="kptt" name="kptt" type="number" placeholder="KPTT" required>
+
+                <br>
+
+                <label for="creatinina">Creatinina (mg/dL):</label>
+                <input id="creatinina" name="creatinina" type="number" placeholder="Creatinina" required>
+
+                <br>
+
+                <label for="urea">Urea (mg/dL):</label>
+                <input id="urea" name="urea" type="number" placeholder="Urea" required>
+
+                <br>
+
+                <label for="vsg">VSG (mm/h):</label>
+                <input id="vsg" name="vsg" type="number" placeholder="Eritrosedimentación" required>
+                <br><br>
+
+                <br></br>
+
+                <label for="antecedentes">Antecedentes Personales: </label>
+                <br>
+                <textarea id="antecedentes" name="antecedentes" cols="50" rows="8"
+                    placeholder="Antecedentes personales"></textarea>
+                <br>
+
+                <input type="submit" value="Enviar">
+                <input type="reset" value="Borrar">
+
+                <ul id="lista_pacientes"></ul>
+            </form>
+
+            <button onclick="mostrar_persona()">SHOW</button>
+        </div>
+    </main>
+
+    <script src="registro.js"></script>
+
+
+
+
+</body>
+
+</html>
